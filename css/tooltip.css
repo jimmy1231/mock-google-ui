@@ -1,0 +1,89 @@
+div.tooltip-wrapper {
+	display: inline-block;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 22px;
+	visibility: hidden;
+}
+
+div.tooltip-wrapper-large {
+	display: inline-block;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 35px;
+	visibility: hidden;
+}
+
+span.tooltip-small-right {
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	height: 25px;
+	width: 120px;
+	top: 16px;
+	left: 0;
+	padding-top: 5px;
+	border-radius: 7px;
+	color: white;
+	background-color: black;
+}
+
+span.tooltip-small-left {
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	height: 25px;
+	width: 120px;
+	top: 16px;
+	right: 0;
+	padding-top: 5px;
+	border-radius: 7px;
+	color: white;
+	background-color: black;
+}
+
+span.tooltip-large-left {
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	height: 100px;
+	width: 150px;
+	top: 16px;
+	right: 0;
+	padding-top: 5px;
+	border-radius: 7px;
+	color: white;
+	background-color: black;
+}
+
+span.tooltip-small-arrow-left-up {
+	display: inline-block;
+	position: absolute;
+	height: 0;
+	width: 0;
+	left: 8px;
+	border-style: solid;
+	border-width: 8px;
+	border-color: transparent transparent black transparent;
+}
+
+span.tooltip-large-arrow-right-up {
+	display: inline-block;
+	position: absolute;
+	height: 0;
+	width: 0;
+	right: 15px;
+	border-style: solid;
+	border-width: 8px;
+	border-color: transparent transparent black transparent;
+}
+
+li.nav-clickable:hover div.tooltip-wrapper {
+	visibility: visible;
+}
+
+li.nav-clickable:hover div.tooltip-wrapper-large {
+	visibility: visible;
+}

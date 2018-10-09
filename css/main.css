@@ -1,0 +1,42 @@
+div.main {
+	margin: auto;
+	background-color: white;
+	font-family: 'Roboto';
+}
+
+div.sidebar-wrapper {
+	width: 200px;
+	min-height: 100vh;
+	max-width: 400px;
+	background-color: white;
+}
+
+div.body-wrapper {
+	max-width: 800px;
+	width: 60vw;
+	margin: auto;
+	text-align: center;
+	background-color: white;
+}
+
+div.nav-wrapper {
+	margin: 0px 0px 10px 0px;
+	width: 100%;
+	background-color: white;
+}
+
+div.web-body-wrapper {
+	min-height: 80vh;
+	margin: 0px 30px 0px 30px;
+	padding: 50px 120px 50px 120px;
+	background-color: white;
+}
+
+div.footer-wrapper {
+	max-height: 10vh;
+	margin: auto; 
+	padding: 30px;
+	font-weight: bold;
+	color: #dddddd;
+	background-color: #4e6182;
+}

@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Google Home</title>
+		<link rel="icon" href="./resources/logos/googleicon_2018.png">
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./css/navbar.css">
+		<link rel="stylesheet" type="text/css" href="./css/web_body.css">
+		<link rel="stylesheet" type="text/css" href="./css/shortcut.css">
+		<link rel="stylesheet" type="text/css" href="./css/tooltip.css">
+		<link rel="stylesheet" type="text/css" href="./css/modal.css">
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+	</head>
+
+	<body>
+		<div class="main">
+
+			<!-- Navigation bar wrapper -->
+			<div class="nav-wrapper">
+				<ul class="nav-list">
+					<li id="gmail-container" class="nav-item nav-clickable">
+						<span id="gmail-text">Gmail</span>
+						<div class="tooltip-wrapper">
+							<span class="tooltip-small-arrow-left-up"></span>
+							<span class="tooltip-small-right">Go to Gmail</span>
+						</div>
+					</li>
+					<li id="images-container" class="nav-item nav-clickable">
+						<span id="images-text">Images</span>
+						<div class="tooltip-wrapper">
+							<span class="tooltip-small-arrow-left-up"></span>
+							<span class="tooltip-small-right">Go to Images</span>
+						</div>
+					</li>
+					<li id="cloud-container" class="nav-item nav-clickable nav-icon nav-icon-cloud">
+						<div class="tooltip-wrapper">
+							<span class="tooltip-small-arrow-left-up"></span>
+							<span class="tooltip-small-right">Cloud</span>
+						</div>
+					</li>
+					<li id="notifications-container" class="nav-item nav-clickable nav-icon nav-icon-notification">
+						<div class="tooltip-wrapper">
+							<span class="tooltip-small-arrow-left-up"></span>
+							<span class="tooltip-small-left">Notifications</span>
+						</div>
+					</li>
+					<li id="profile-container" class="nav-item nav-clickable nav-icon nav-icon-profile-icon">
+						<div class="tooltip-wrapper-large">
+							<span class="tooltip-large-arrow-right-up"></span>
+							<span class="tooltip-large-left" style="text-align: left; padding: 20px">
+								Profile: <hr>
+								Jimmy Li <br> 
+								dfjimmy.li@gmail.com
+							</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="body-wrapper">
+
+				<!-- Website body block -->
+				<div class="web-body-wrapper">
+					<div class="big-logo-wrapper"/></div>
+
+					<div class="search-wrapper">
+						<input class="search-input" type="text" placeholder="Search Google or type a URL">
+						<div class="voice-icon"></div>
+					</div>
+
+					<div class="shortcut-wrapper">
+						<div class="shortcut-list">
+							<div class="shortcut-list-row">
+								<div class="shortcut-item">
+									<div class="shortcut-icon shortcut-facebook"></div>
+									<span class="shortcut-text">Facebook</span>
+								</div>
+								<div class="shortcut-item">
+									<div class="shortcut-icon shortcut-youtube"></div>
+									<span class="shortcut-text">Youtube</span>
+								</div>
+								<div class="shortcut-item">
+									<div class="shortcut-icon shortcut-netflix"></div>
+									<span class="shortcut-text">Netflix</span>
+								</div>
+								<div class="shortcut-item">
+									<div class="shortcut-icon shortcut-skulemusic"></div>
+									<span class="shortcut-text">Skule Music</span>
+								</div>
+								<div class="shortcut-item">
+									<div class="shortcut-icon shortcut-outlook"></div>
+									<span class="shortcut-text">Outlook</span>
+								</div>
+							</div>
+							<div class="shortcut-list-row">
+								<div class="shortcut-item">
+									<div class="shortcut-icon shortcut-googlemaps"></div>
+									<span class="shortcut-text">Google Maps</span>
+								</div>
+								<div class="shortcut-item">
+									<div class="shortcut-icon shortcut-amazonshop"></div>
+									<span class="shortcut-text">Amazon Shop</span>
+								</div>
+								<div class="shortcut-item">
+									<div class="shortcut-icon shortcut-teachersday"></div>
+									<span class="shortcut-text">Teachers Day!</span>
+								</div>
+								<div class="shortcut-item">
+									<div class="shortcut-icon shortcut-lolesports"></div>
+									<span class="shortcut-text">LoL Esports</span>
+								</div>
+								<div class="shortcut-item">
+									<div class="shortcut-icon shortcut-addshortcut"></div>
+									<span class="shortcut-text">Add shortcut</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Footer block -->
+				<div class="footer-wrapper">
+					© Google Inc. 2018
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Modals -->
+		<div id="gmail-modal" class="modal-wrapper">
+			<div class="modal-body">
+				<div id="gmail-close" class="modal-close"></div>
+			</div>
+			<div class="modal-background"></div>
+		</div>
+		<div id="images-modal" class="modal-wrapper">
+			<div class="modal-body">
+				<div id="images-close" class="modal-close"></div>
+			</div>
+			<div class="modal-background"></div>
+		</div>
+		<div id="notifications-modal" class="modal-wrapper">
+			<div class="modal-body">
+				<div id="notifications-close" class="modal-close"></div>
+			</div>
+			<div class="modal-background"></div>
+		</div>
+		<div id="cloud-modal" class="modal-wrapper">
+			<div class="modal-body">
+				<div id="cloud-close" class="modal-close"></div>
+			</div>
+			<div class="modal-background"></div>
+		</div>
+		<div id="profile-modal" class="modal-wrapper">
+			<div class="modal-body">
+				<div id="profile-close" class="modal-close"></div>
+			</div>
+			<div class="modal-background"></div>
+		</div>
+
+		<script type="text/javascript" src="./js/ModalManager.js"></script>
+	</body>
+</html>

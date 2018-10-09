@@ -1,0 +1,50 @@
+div.big-logo-wrapper {
+	background-image: url("../resources/images/google_2018.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 10vh 10% 10px 15%;
+	max-width: 350px;
+	max-height: 10vw;
+	width: 500px;
+	height: 150px;
+}
+
+div.search-wrapper {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+input.search-input {
+	width: 90%;
+	height: 20px;
+	padding: 10px 15px 10px 20px;
+	border: none;
+	border-radius: 20px;
+	font-size: 15px;
+	color: #3f3f3f;
+	background-color: #e5e5e5;
+}
+
+div.voice-icon {
+	position: absolute;
+	background-image: url("../resources/images/google_mic_2018.png");
+	background-repeat: no-repeat;
+	background-size: 52%;
+	width: 30px;
+	height: 40px;
+	top: 9px;
+	right: 10px;
+}
+
+input.search-input:focus {
+	outline: none;
+}
+
+input.search-input:hover {
+	background-color: #d1d1d1;
+}
+
+div.voice-icon:hover {
+	cursor: pointer;
+}

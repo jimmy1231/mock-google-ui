@@ -1,0 +1,65 @@
+ul.nav-list {
+	text-align: right;
+	max-height: 10vh;
+	margin: 0px;
+}
+
+li.nav-item { 
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	padding: 5px 5px 10px 5px;
+}
+
+li.nav-clickable {
+	font-size: 15px;
+}
+
+li.nav-clickable:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #0f5d91;
+}
+
+li.nav-icon {
+	background-repeat: no-repeat;
+	vertical-align: bottom;
+	width: 30px;
+	height: 30px;
+	margin: 5px 10px 5px 10px;
+	padding: 0px;
+}
+
+li.nav-icon-cloud {
+	background-image: url("../resources/images/ic_wb_cloudy_black_36dp.png");
+	background-size: 30px 30px;
+}
+
+li.nav-icon-notification {
+	background-image: url("../resources/images/ic_notifications_black_36dp.png");
+	background-size: 30px 30px;
+}
+
+li.nav-icon-profile-icon {
+	border-radius: 50%;
+	background-image: url("../resources/images/snorlax-small.jpg");
+	background-size: 40px 40px;
+	height: 40px;
+	width: 40px;
+}
+
+li.nav-icon-notification:hover {
+	background-image: url("../resources/images/ic_notifications_none_black_36dp.png");
+}
+
+li.nav-icon-cloud:hover {
+	background-image: url("../resources/images/ic_filter_drama_black_36dp.png");
+}
+
+li.nav-icon-profile-icon:hover {
+	margin: 4px 9px 4px 9px;
+	border-width: 1px;
+	border-style: solid;
+	opacity: 0.5;
+	border-color: #383838;
+}

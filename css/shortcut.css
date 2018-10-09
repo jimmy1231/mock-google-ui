@@ -1,0 +1,90 @@
+div.shortcut-wrapper {
+	max-height: 500px;
+	margin: auto;
+	padding: 50px 0px 50px 0px;
+	width: 97%;
+	height: 300px;
+	background-color: white;
+ }
+
+ div.shortcut-list {}
+
+ div.shortcut-list-row {
+ 	margin: 10px 0px 10px 0px;
+ 	width: 100%; 
+ 	height: 120px;
+ }
+
+ div.shortcut-item {
+ 	display: inline-block;
+ 	overflow: hidden;
+ 	border-radius: 7px;
+ 	padding: 10px;
+ 	height: 80%;
+ 	width: 15%;
+ 	text-align: center;
+ }
+
+ div.shortcut-icon {
+ 	background-repeat: no-repeat;
+ 	background-size: 110%;
+ 	background-position: center;
+ 	border-radius: 50%;
+ 	margin: auto;
+ 	margin-bottom: 5px;
+ 	width: 50px;
+ 	height: 50px;
+ 	background-color: #e8e8e8;
+ }
+
+ span.shortcut-text {
+ 	display: inline-block;
+ }
+
+div.shortcut-item:hover {
+	cursor: pointer;
+	background-color: #e8e8e8;
+	color: #0f5d91;
+}
+
+ .shortcut-facebook {
+ 	background-image: url("../resources/logos/facebook_2018.png")
+}
+
+.shortcut-youtube {
+	background-image: url("../resources/logos/youtube_2018.png")
+}
+
+.shortcut-netflix {
+ 	background-image: url("../resources/logos/netflix_2018.png")
+}
+
+.shortcut-skulemusic {
+ 	background-image: url("../resources/logos/skulemusic.png")
+}
+
+.shortcut-outlook {
+ 	background-image: url("../resources/logos/outlook_2018.png")
+}
+
+.shortcut-googlemaps {
+ 	background-image: url("../resources/logos/googlemaps_2018.png")
+}
+
+.shortcut-amazonshop {
+ 	background-image: url("../resources/logos/amazon_2018.png")
+}
+
+.shortcut-teachersday {
+ 	background-image: url("../resources/logos/googleicon_2018.png")
+}
+
+.shortcut-lolesports {
+ 	background-image: url("../resources/logos/leagueoflegends_2018.png")
+}
+
+.shortcut-addshortcut {
+	opacity: 0.5;
+	background-size: 70% !important;
+ 	background-image: url("../resources/images/ic_exposure_plus_1_black_36dp.png")
+}
