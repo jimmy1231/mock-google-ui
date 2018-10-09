@@ -28,7 +28,7 @@ div.nav-wrapper {
 div.web-body-wrapper {
 	min-height: 80vh;
 	margin: 0px 30px 0px 30px;
-	padding: 50px 120px 50px 120px;
+	padding: 50px 100px 50px 100px;
 	background-color: white;
 }
 
@@ -36,6 +36,7 @@ div.footer-wrapper {
 	max-height: 10vh;
 	margin: auto; 
 	padding: 30px;
+	font-size: 14px;
 	font-weight: bold;
 	color: #dddddd;
 	background-color: #4e6182;
